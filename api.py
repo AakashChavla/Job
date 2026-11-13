@@ -1,4 +1,5 @@
 import os
+import json
 import shutil
 import subprocess
 import tempfile
@@ -12,6 +13,14 @@ app.config["MAX_CONTENT_LENGTH"] = 256 * 1024
 
 LATEX_TIMEOUT = int(os.environ.get("LATEX_TIMEOUT", "30"))
 API_KEY = os.environ.get("API_KEY")
+
+# Load sample resume for Swagger examples
+SAMPLE_RESUME_PATH = os.path.join(os.path.dirname(__file__), "sample_resume.json")
+try:
+    with open(SAMPLE_RESUME_PATH, "r", encoding="utf-8") as f:
+        SAMPLE_RESUME = json.load(f)
+except Exception:
+    SAMPLE_RESUME = {"name": "Aakash Chavla"}
 
 OPENAPI_SPEC = {
     "openapi": "3.0.3",
@@ -53,7 +62,8 @@ OPENAPI_SPEC = {
                     "required": True,
                     "content": {
                         "application/json": {
-                            "schema": {"$ref": "#/components/schemas/ResumeRequest"}
+                            "schema": {"$ref": "#/components/schemas/ResumeRequest"},
+                            "example": SAMPLE_RESUME
                         }
                     }
                 },
@@ -81,7 +91,8 @@ OPENAPI_SPEC = {
                     "required": True,
                     "content": {
                         "application/json": {
-                            "schema": {"$ref": "#/components/schemas/ResumeRequest"}
+                            "schema": {"$ref": "#/components/schemas/ResumeRequest"},
+                            "example": SAMPLE_RESUME
                         }
                     }
                 },

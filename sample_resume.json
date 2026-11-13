@@ -1,69 +1,167 @@
 {
-  "name": "Jane Doe",
+  "name": "Aakash Chavla",
   "contact": {
-    "location": "San Francisco, CA",
-    "phone": "+1 (555) 123-4567",
-    "email": "jane.doe@example.com",
-    "linkedin": "https://linkedin.com/in/janedoe/",
-    "github": "https://github.com/janedoe/",
-    "website": "https://janedoe.dev"
+    "location": "Surat, Gujarat, India",
+    "phone": "",
+    "email": "",
+    "linkedin": "",
+    "github": "https://github.com/AakashChavla",
+    "website": ""
   },
-  "summary": "Full-stack Backend Engineer with 1.5+ years of experience designing scalable microservices in Java, Python, and Node.js. Proficient in LLM orchestration, RAG pipelines, and cloud database optimization.",
+  "summary": "Backend Software Engineer with 1.5+ years of professional experience building scalable backend applications and REST APIs using Node.js, TypeScript, NestJS, Express.js, PostgreSQL, and MongoDB. Experienced in database design, authentication, caching, real-time communication, cloud integrations, and AI-powered applications. Hands-on experience with LangChain, LLM APIs, Retrieval-Augmented Generation (RAG), vector databases, Redis, AWS services, and event-driven backend architecture. Focused on building secure, maintainable, and scalable software systems.",
   "skills": [
     {
-      "category": "Languages",
-      "items": ["Java", "Python", "TypeScript", "JavaScript", "SQL"]
+      "category": "Programming Languages",
+      "items": [
+        "TypeScript",
+        "JavaScript",
+        "Java",
+        "Python",
+        "SQL"
+      ]
     },
     {
-      "category": "Frameworks & Backend",
-      "items": ["Spring Boot", "FastAPI", "Express", "Node.js", "Flask"]
+      "category": "Backend Development",
+      "items": [
+        "Node.js",
+        "NestJS",
+        "Express.js",
+        "REST APIs",
+        "Microservices",
+        "WebSocket",
+        "Socket.IO",
+        "JWT Authentication",
+        "Role-Based Access Control"
+      ]
     },
     {
-      "category": "AI & Data",
-      "items": ["LangChain", "OpenAI API", "PostgreSQL", "Redis", "Vector DBs"]
+      "category": "Databases & ORMs",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Prisma ORM",
+        "Sequelize",
+        "PGVector"
+      ]
+    },
+    {
+      "category": "AI & LLM Technologies",
+      "items": [
+        "LangChain",
+        "Retrieval-Augmented Generation (RAG)",
+        "OpenAI API",
+        "Google Gemini API",
+        "Ollama",
+        "Vector Embeddings",
+        "Vector Databases",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": [
+        "AWS S3",
+        "AWS Lambda",
+        "Docker",
+        "LocalStack",
+        "Git",
+        "GitHub",
+        "BullMQ",
+        "CI/CD Fundamentals"
+      ]
+    },
+    {
+      "category": "Frontend & API Tools",
+      "items": [
+        "React.js",
+        "Next.js",
+        "HTML",
+        "CSS",
+        "Swagger / OpenAPI",
+        "Postman",
+        "Vite"
+      ]
+    },
+    {
+      "category": "Architecture & Engineering",
+      "items": [
+        "Clean Architecture",
+        "SOLID Principles",
+        "Dependency Injection",
+        "Event-Driven Architecture",
+        "Caching",
+        "API Security",
+        "Asynchronous Processing"
+      ]
     }
   ],
   "experience": [
     {
-      "company": "Tech Innovations Inc.",
-      "location": "San Francisco, CA",
-      "title": "Backend Software Engineer",
-      "dates": "June 2023 -- Present",
+      "company": "Cilans System Pvt. Ltd.",
+      "location": "India",
+      "title": "Jr. Backend Developer",
+      "dates": "July 2025 -- Present",
       "bullets": [
-        "Architected and deployed high-throughput REST APIs handling 2M+ requests per day with 99.9% uptime.",
-        "Integrated LLM-based RAG pipeline using LangChain and pgvector, reducing customer search latency by 45%.",
-        "Optimized PostgreSQL queries and Redis caching layer, cutting p95 response time from 380ms to 95ms."
+        "Develop and maintain backend applications and REST APIs using Node.js, TypeScript, NestJS, and Express.js.",
+        "Work with PostgreSQL, MySQL, and MongoDB to design database schemas, implement queries, and manage application data using Prisma and Sequelize.",
+        "Implement authentication, authorization, API validation, and backend business logic for application modules.",
+        "Integrate third-party services and cloud storage solutions, including AWS S3 and Google Drive APIs.",
+        "Develop real-time application functionality using Socket.IO and WebSocket communication.",
+        "Work with Redis and BullMQ for caching, background jobs, and asynchronous task processing.",
+        "Explore and integrate AI-powered capabilities using LLM APIs, LangChain, embeddings, and vector databases."
       ]
     }
   ],
   "projects": [
     {
-      "name": "SmartResume AI",
-      "tech": "Python, Flask, Docker, LaTeX",
-      "link": "https://github.com/janedoe/smart-resume/",
+      "name": "IntelliScanAI - AI-Powered Code Vulnerability Scanner",
+      "tech": "NestJS, TypeScript, PostgreSQL, Prisma, PGVector, LangChain, Gemini, OpenAI, Redis, AWS S3, AWS Lambda",
+      "link": "https://github.com/AakashChavla",
       "bullets": [
-        "Built microservice converting dynamic JSON to ATS-compliant PDFs using isolated pdflatex compiling.",
-        "Implemented token-efficient LLM prompt chaining to optimize resume keywords based on job descriptions."
+        "Designed an AI-powered code analysis platform focused on identifying potential security vulnerabilities in source code.",
+        "Planned integration of LLM-powered vulnerability analysis using LangChain and Gemini/OpenAI APIs.",
+        "Designed a PostgreSQL and PGVector-based architecture for storing and retrieving contextual information.",
+        "Integrated Redis concepts for caching scan results and implementing rate-limiting strategies.",
+        "Designed cloud-based code upload and processing workflows using AWS S3 and AWS Lambda.",
+        "Focused on identifying security issues aligned with OWASP Top 10 categories and generating vulnerability reports."
+      ]
+    },
+    {
+      "name": "Document QA & Editor",
+      "tech": "Node.js, NestJS, TypeScript, AWS S3, Google Drive API, Socket.IO, Redis",
+      "link": "https://github.com/AakashChavla",
+      "bullets": [
+        "Developed backend workflows for uploading and managing document files through AWS S3.",
+        "Integrated Google Drive APIs to convert supported document formats into editable Google Workspace documents.",
+        "Designed workflows for saving edited documents back to AWS S3.",
+        "Explored real-time collaboration events using Socket.IO and Redis.",
+        "Worked on document synchronization and concurrency-handling concepts."
+      ]
+    },
+    {
+      "name": "E-commerce Backend REST API",
+      "tech": "Node.js, Express.js, MongoDB, JWT, bcrypt",
+      "link": "https://github.com/AakashChavla",
+      "bullets": [
+        "Developed REST APIs for core e-commerce functionalities.",
+        "Implemented user authentication and password hashing using JWT and bcrypt.",
+        "Designed backend modules for managing application data and business operations."
       ]
     }
   ],
   "education": [
     {
-      "school": "University of California, Berkeley",
-      "location": "Berkeley, CA",
-      "degree": "B.S. in Computer Science",
-      "dates": "2019 -- 2023",
-      "details": "Relevant Coursework: Distributed Systems, Operating Systems, Database Management Systems."
+      "school": "L.D. College of Engineering, Ahmedabad",
+      "location": "Ahmedabad, Gujarat, India",
+      "degree": "Master of Computer Applications (MCA)",
+      "dates": "",
+      "details": "Postgraduate degree in Computer Applications."
     }
   ],
-  "certifications": [
-    "AWS Certified Solutions Architect -- Associate",
-    "DeepLearning.AI Generative AI for Software Engineers"
-  ],
-  "achievements": [
-    "Winner, Regional AI Hackathon 2024 (1st place out of 60 teams)",
-    "Published technical article on LLM latency optimizations with 10k+ reads"
-  ],
+  "certifications": [],
+  "achievements": [],
   "section_order": [
     "summary",
     "skills",
