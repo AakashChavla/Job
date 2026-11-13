@@ -1,0 +1,76 @@
+{
+  "name": "Jane Doe",
+  "contact": {
+    "location": "San Francisco, CA",
+    "phone": "+1 (555) 123-4567",
+    "email": "jane.doe@example.com",
+    "linkedin": "https://linkedin.com/in/janedoe/",
+    "github": "https://github.com/janedoe/",
+    "website": "https://janedoe.dev"
+  },
+  "summary": "Full-stack Backend Engineer with 1.5+ years of experience designing scalable microservices in Java, Python, and Node.js. Proficient in LLM orchestration, RAG pipelines, and cloud database optimization.",
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["Java", "Python", "TypeScript", "JavaScript", "SQL"]
+    },
+    {
+      "category": "Frameworks & Backend",
+      "items": ["Spring Boot", "FastAPI", "Express", "Node.js", "Flask"]
+    },
+    {
+      "category": "AI & Data",
+      "items": ["LangChain", "OpenAI API", "PostgreSQL", "Redis", "Vector DBs"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Innovations Inc.",
+      "location": "San Francisco, CA",
+      "title": "Backend Software Engineer",
+      "dates": "June 2023 -- Present",
+      "bullets": [
+        "Architected and deployed high-throughput REST APIs handling 2M+ requests per day with 99.9% uptime.",
+        "Integrated LLM-based RAG pipeline using LangChain and pgvector, reducing customer search latency by 45%.",
+        "Optimized PostgreSQL queries and Redis caching layer, cutting p95 response time from 380ms to 95ms."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SmartResume AI",
+      "tech": "Python, Flask, Docker, LaTeX",
+      "link": "https://github.com/janedoe/smart-resume/",
+      "bullets": [
+        "Built microservice converting dynamic JSON to ATS-compliant PDFs using isolated pdflatex compiling.",
+        "Implemented token-efficient LLM prompt chaining to optimize resume keywords based on job descriptions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "degree": "B.S. in Computer Science",
+      "dates": "2019 -- 2023",
+      "details": "Relevant Coursework: Distributed Systems, Operating Systems, Database Management Systems."
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect -- Associate",
+    "DeepLearning.AI Generative AI for Software Engineers"
+  ],
+  "achievements": [
+    "Winner, Regional AI Hackathon 2024 (1st place out of 60 teams)",
+    "Published technical article on LLM latency optimizations with 10k+ reads"
+  ],
+  "section_order": [
+    "summary",
+    "skills",
+    "experience",
+    "projects",
+    "education",
+    "certifications",
+    "achievements"
+  ]
+}
